@@ -49,7 +49,7 @@ function timer(id, deadline) {
         }
     }
 
-    setClock(id, deadline);
+    setClock('.timer', deadline);
 }
 
 export default timer;
